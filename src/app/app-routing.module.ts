@@ -12,6 +12,7 @@ const routes:Routes =[
    //path '/auth' authRouting
    //path '/medicos' medicosRouting (no existen son de ejemplo)
    //path '/compras' comprasRouting (no existen son de ejemplo)
+  {path:'',redirectTo:'/dashboard',pathMatch:'full'},
   {path:'**',component:NopagefoundComponent},
 ]
 
